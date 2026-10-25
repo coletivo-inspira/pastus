@@ -23,7 +23,8 @@ import {
 } from "./lib/discovery-swipe.js";
 import { initializeTheme } from "./site.js";
 
-const BASE = import.meta.env.BASE_URL || "/";
+// Vite build + raw GitHub Pages (fonte em /src) resolvem assets em /public.
+const BASE = new URL(/* @vite-ignore */ "../public/", import.meta.url).href;
 const PAGE_SIZE = 30;
 const FAVORITES_KEY = "pastus-favorites-v1";
 const TABLE_KEY = "pastus-table-v1";

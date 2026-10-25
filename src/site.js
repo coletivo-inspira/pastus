@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const THEME_KEY = "pastus-theme-v1";
 
 export function applyTheme(theme, save = false) {
