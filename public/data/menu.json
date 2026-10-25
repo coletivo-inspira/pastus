@@ -1,0 +1,1386 @@
+[
+  {
+    "code": "P01",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Polenta Artesanal Frita",
+    "description": "Polenta artesanal dourada e crocante por fora, macia por dentro, finalizada com queijo Parmesão ralado.",
+    "price": 44.0,
+    "portion": "Porção",
+    "tags": [
+      "Vegetariano",
+      "Compartilhar",
+      "Clássico"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P02",
+      "P18",
+      "P19"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 44,00"
+  },
+  {
+    "code": "P02",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Fritas da Casa",
+    "description": "Batatas fritas crocantes da casa, aromatizadas com alecrim fresco e alho assado na brasa.",
+    "price": 44.0,
+    "portion": "Porção",
+    "tags": [
+      "Vegetariano",
+      "Compartilhar",
+      "Brasa"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P12",
+      "P14",
+      "P22"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 44,00"
+  },
+  {
+    "code": "P03",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Steak Tartare",
+    "description": "Filé cortado na ponta da faca e temperado na hora, servido em brioche amanteigado tostado com manteiga bovina.",
+    "price": 66.0,
+    "portion": "Individual / Compartilhar",
+    "tags": [
+      "Assinatura do Chef",
+      "Carne Crua"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P02",
+      "P23",
+      "P24"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 66,00"
+  },
+  {
+    "code": "P04",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Carpaccio Clássico",
+    "description": "Lâminas finas de carne bovina com emulsão Caesar artesanal, folhas de rúcula fresca, lascas de Parmesão e alcaparras.",
+    "price": 58.0,
+    "portion": "Para compartilhar",
+    "tags": [
+      "Leve",
+      "Compartilhar"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P08",
+      "P21",
+      "P23"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 58,00"
+  },
+  {
+    "code": "P05",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Empanada de Carne",
+    "description": "Empanada artesanal recheada com ossobuco cozido lentamente, ovo cozido e especiarias da casa.",
+    "price": 18.0,
+    "portion": "1 unidade",
+    "tags": [
+      "Individual",
+      "Clássico",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P06",
+      "P22",
+      "P23"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 18,00"
+  },
+  {
+    "code": "P06",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Empanada de Cebola Caramelizada",
+    "description": "Empanada artesanal recheada com cebola caramelizada lentamente e autêntico Queijo Minas Artesanal.",
+    "price": 18.0,
+    "portion": "1 unidade",
+    "tags": [
+      "Vegetariano",
+      "Individual",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P05",
+      "P08",
+      "P23"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 18,00"
+  },
+  {
+    "code": "P07",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Croquetes de Costela",
+    "description": "Croquetes cremosos de costela bovina desfiada, empanados e servidos com geleia artesanal de tomate.",
+    "price": 48.0,
+    "portion": "Porção",
+    "tags": [
+      "Assinatura do Chef",
+      "Compartilhar",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P08",
+      "P22",
+      "P23"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 48,00"
+  },
+  {
+    "code": "P08",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Burrata de Búfala",
+    "description": "Burrata cremosa de búfala servida sobre pão parrillero tostado na brasa com molho de tomate rústico e pesto de rúcula.",
+    "price": 74.0,
+    "portion": "Para compartilhar",
+    "tags": [
+      "Assinatura do Chef",
+      "Vegetariano",
+      "Compartilhar"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P07",
+      "P23",
+      "P33"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 74,00"
+  },
+  {
+    "code": "P09",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Queijo Lua Cheia no Forno a Lenha",
+    "description": "Queijo Lua Cheia gratinado no forno a lenha, acompanhado de tomatinhos confitados, harmonizado com mel trufado e nozes.",
+    "price": 72.0,
+    "portion": "Para compartilhar",
+    "tags": [
+      "Vegetariano",
+      "Compartilhar",
+      "Brasa"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P08",
+      "P23",
+      "P27"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 72,00"
+  },
+  {
+    "code": "P10",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Cogumelos na Brasa",
+    "description": "Mix de cogumelos frescos grelhados na brasa, servidos sobre mousseline aveludada de batata trufada.",
+    "price": 42.0,
+    "portion": "Individual / Compartilhar",
+    "tags": [
+      "Vegetariano",
+      "Brasa",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P24",
+      "P52"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 42,00"
+  },
+  {
+    "code": "P11",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Mollejas na Brasa",
+    "description": "Tradicional corte argentino de timo bovino grelhado na parrilla, acompanhado de salsa criolla fresca e limão tostado.",
+    "price": 58.0,
+    "portion": "200g",
+    "tags": [
+      "Brasa",
+      "Clássico Parrillero",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P12",
+      "P13",
+      "P23"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 58,00"
+  },
+  {
+    "code": "P12",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Trio de Linguiças na Parrilla",
+    "description": "Seleção com linguiça de queijo coalho, toscana e linguiça de costela na brasa, com salsa criolla e farofa de limão siciliano.",
+    "price": 56.0,
+    "portion": "300g",
+    "tags": [
+      "Brasa",
+      "Compartilhar",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P02",
+      "P22",
+      "P48"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 56,00"
+  },
+  {
+    "code": "P13",
+    "category": "ENTRADAS",
+    "categoryLabel": "Entradas",
+    "title": "Morcilla",
+    "description": "Embutido tradicional argentino grelhado na parrilla, de textura macia e tempero marcante.",
+    "price": 42.0,
+    "portion": "200g",
+    "tags": [
+      "Brasa",
+      "Clássico Parrillero",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P11",
+      "P12",
+      "P24"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 42,00"
+  },
+  {
+    "code": "P14",
+    "category": "SANDUICHES",
+    "categoryLabel": "Sanduíches",
+    "title": "Choripán Parrillero",
+    "description": "Clássico argentino no pão francês crocante com linguiça de porco artesanal assada na brasa e molho chimichurri.",
+    "price": 36.0,
+    "portion": "Individual",
+    "tags": [
+      "Brasa",
+      "Clássico",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P02",
+      "P39",
+      "P55"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 36,00"
+  },
+  {
+    "code": "P15",
+    "category": "SANDUICHES",
+    "categoryLabel": "Sanduíches",
+    "title": "Sanduíche Roast Beef",
+    "description": "Pão ciabatta tostado recheado com finas fatias de lagarto Angus, folhas de rúcula, pickles artesanal e mostarda.",
+    "price": 42.0,
+    "portion": "Individual",
+    "tags": [
+      "Angus",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P02",
+      "P18",
+      "P55"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 42,00"
+  },
+  {
+    "code": "P16",
+    "category": "SANDUICHES",
+    "categoryLabel": "Sanduíches",
+    "title": "Hambúrguer Clássico com Fritas",
+    "description": "Pão brioche selado na manteiga, blend Angus 180g grelhado na parrilla e queijo prato derretido. Acompanha fritas.",
+    "price": 52.0,
+    "portion": "180g + Fritas",
+    "tags": [
+      "Brasa",
+      "Angus",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P01",
+      "P54",
+      "P56"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 52,00"
+  },
+  {
+    "code": "P17",
+    "category": "SANDUICHES",
+    "categoryLabel": "Sanduíches",
+    "title": "Hambúrguer da Casa com Fritas",
+    "description": "Pão brioche, blend Angus 180g na brasa, queijo prato, cebola caramelizada, bacon crocante e pickles. Acompanha fritas.",
+    "price": 58.0,
+    "portion": "180g + Fritas",
+    "tags": [
+      "Brasa",
+      "Angus",
+      "Assinatura do Chef",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P07",
+      "P54",
+      "P56"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 58,00"
+  },
+  {
+    "code": "P18",
+    "category": "SALADAS",
+    "categoryLabel": "Saladas",
+    "title": "Salada Caesar",
+    "description": "Folhas de alface crocante envolvidas em emulsão de anchovas da casa, lascas de Parmesão e croutons tostados.",
+    "price": 42.0,
+    "portion": "Individual / Compartilhar",
+    "tags": [
+      "Leve",
+      "Clássico",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P25",
+      "P36"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 42,00"
+  },
+  {
+    "code": "P19",
+    "category": "SALADAS",
+    "categoryLabel": "Saladas",
+    "title": "Salada Waldorf",
+    "description": "Combinação refrescante de salsão crocante, maçã verde, uvas frescas, nozes tostadas, alface e maionese suave.",
+    "price": 46.0,
+    "portion": "Individual / Compartilhar",
+    "tags": [
+      "Vegetariano",
+      "Leve",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P34",
+      "P35"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 46,00"
+  },
+  {
+    "code": "P20",
+    "category": "SALADAS",
+    "categoryLabel": "Saladas",
+    "title": "Salada Gorgonzola & Frutas na Brasa",
+    "description": "Mix de folhas frescas, gorgonzola defumado, cebola roxa, frutas da estação grelhadas na brasa e vinagrete de avelãs.",
+    "price": 48.0,
+    "portion": "Individual / Compartilhar",
+    "tags": [
+      "Vegetariano",
+      "Brasa",
+      "Leve",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P24",
+      "P35"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 48,00"
+  },
+  {
+    "code": "P21",
+    "category": "SALADAS",
+    "categoryLabel": "Saladas",
+    "title": "Salada Pastus",
+    "description": "Mix de folhas, hortelã fresca, queijo Boursin cremoso, tomates confitados, azeitonas, pickles, grão-de-bico e nozes.",
+    "price": 54.0,
+    "portion": "Para compartilhar",
+    "tags": [
+      "Vegetariano",
+      "Assinatura do Chef",
+      "Leve",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P08",
+      "P22",
+      "P51"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 54,00"
+  },
+  {
+    "code": "P22",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Picanha na Parrilla",
+    "description": "Corte nobre e suculento com capa de gordura uniforme, assado lentamente sobre brasas. Acompanha 1 molho à escolha.",
+    "price": 188.0,
+    "portion": "500g",
+    "tags": [
+      "Brasa",
+      "Compartilhar",
+      "Assinatura do Chef"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P46",
+      "P48",
+      "P39"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 188,00"
+  },
+  {
+    "code": "P23",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Bife Ancho",
+    "description": "Corte argentino retirado da parte dianteira do contrafilé, extremamente marmorizado e macio. Acompanha 1 molho à escolha.",
+    "price": 110.0,
+    "portion": "350g",
+    "tags": [
+      "Brasa",
+      "Clássico Parrillero",
+      "Assinatura do Chef"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P38",
+      "P41",
+      "P44"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 110,00"
+  },
+  {
+    "code": "P24",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Bife de Chorizo",
+    "description": "Clássico contrafilé argentino com lateral de gordura dourada na brasa e sabor intenso. Acompanha 1 molho à escolha.",
+    "price": 110.0,
+    "portion": "350g",
+    "tags": [
+      "Brasa",
+      "Clássico Parrillero"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P37",
+      "P39",
+      "P46"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 110,00"
+  },
+  {
+    "code": "P25",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Fraldinha na Brasa",
+    "description": "Corte de fibras longas, muito suculento e saboroso, grelhado no calor das brasas. Acompanha 1 molho à escolha.",
+    "price": 96.0,
+    "portion": "350g",
+    "tags": [
+      "Brasa",
+      "Clássico"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P45",
+      "P48",
+      "P41"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 96,00"
+  },
+  {
+    "code": "P26",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Entranha (Entraña)",
+    "description": "Corte tradicional das parrillas portenhas, fino, suculento e de sabor marcante na brasa. Acompanha 1 molho à escolha.",
+    "price": 98.0,
+    "portion": "350g",
+    "tags": [
+      "Brasa",
+      "Clássico Parrillero"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P39",
+      "P42",
+      "P47"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 98,00"
+  },
+  {
+    "code": "P27",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Denver Steak",
+    "description": "Corte alto com marmoreio intenso, textura amanteigada e suculência extraordinária. Acompanha 1 molho à escolha.",
+    "price": 160.0,
+    "portion": "350g",
+    "tags": [
+      "Brasa",
+      "Marmoreio Alto"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P38",
+      "P40",
+      "P44"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 160,00"
+  },
+  {
+    "code": "P28",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Flat Iron",
+    "description": "Extraído da paleta bovina, reconhecido como um dos cortes mais macios da parrilla. Acompanha 1 molho à escolha.",
+    "price": 95.0,
+    "portion": "350g",
+    "tags": [
+      "Brasa",
+      "Maciez Extrema"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P38",
+      "P41",
+      "P45"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 95,00"
+  },
+  {
+    "code": "P29",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Assado de Tira",
+    "description": "Costela bovina cortada transversalmente ao osso, assada lentamente na brasa. Acompanha 1 molho à escolha.",
+    "price": 186.0,
+    "portion": "500g",
+    "tags": [
+      "Brasa",
+      "Compartilhar",
+      "Clássico Parrillero"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P46",
+      "P48",
+      "P41"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 186,00"
+  },
+  {
+    "code": "P30",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Short Rib na Brasa",
+    "description": "Corte imponente da costela dianteira com osso, unindo marmoreio intenso e sabor defumado. Acompanha 1 molho à escolha.",
+    "price": 248.0,
+    "portion": "800g",
+    "tags": [
+      "Brasa",
+      "Compartilhar",
+      "Com Osso"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P36",
+      "P46",
+      "P48"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 248,00"
+  },
+  {
+    "code": "P31",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "King's Rib",
+    "description": "Corte especial de costela nobre com 800g, preparado na brasa para compartilhar. Acompanha 1 molho à escolha.",
+    "price": 260.0,
+    "portion": "800g",
+    "tags": [
+      "Brasa",
+      "Compartilhar",
+      "Com Osso"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P38",
+      "P44",
+      "P48"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 260,00"
+  },
+  {
+    "code": "P32",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Bisteca Fiorentina",
+    "description": "Corte monumental de 1,2kg com osso em T (filé mignon e contrafilé), grelhado sobre brasas. Acompanha 1 molho à escolha.",
+    "price": 320.0,
+    "portion": "1200g",
+    "tags": [
+      "Brasa",
+      "Compartilhar",
+      "Assinatura do Chef",
+      "Com Osso"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P38",
+      "P41",
+      "P48",
+      "P49"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 320,00"
+  },
+  {
+    "code": "P33",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Dry Aged Prime Rib",
+    "description": "Prime Rib maturado a seco (Dry Aged), concentrando maciez e notas amanteigadas únicas na brasa. Acompanha 1 molho à escolha.",
+    "price": 340.0,
+    "portion": "Aprox. 1kg",
+    "tags": [
+      "Dry Aged",
+      "Brasa",
+      "Compartilhar",
+      "Assinatura do Chef"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P38",
+      "P44",
+      "P49"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 340,00"
+  },
+  {
+    "code": "P34",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Prime Rib Suíno Duroc",
+    "description": "Corte nobre de porco da raça Duroc, de carne marmorizada e suculenta na parrilla. Acompanha 1 molho à escolha.",
+    "price": 86.0,
+    "portion": "400g",
+    "tags": [
+      "Brasa",
+      "Suíno Duroc"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P36",
+      "P45",
+      "P48"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 86,00"
+  },
+  {
+    "code": "P35",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Carré de Cordeiro",
+    "description": "Costeletas tenras de cordeiro seladas na brasa no ponto perfeito. Acompanha 1 molho à escolha.",
+    "price": 148.0,
+    "portion": "400g",
+    "tags": [
+      "Brasa",
+      "Cordeiro",
+      "Assinatura do Chef"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P38",
+      "P41",
+      "P44"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 148,00"
+  },
+  {
+    "code": "P36",
+    "category": "PARRILLA",
+    "categoryLabel": "Cortes da Parrilla",
+    "title": "Galeto na Brasa",
+    "description": "Galeto inteiro desossado e marinado em ervas frescas, grelhado lentamente na parrilla com pele crocante. Acompanha 1 molho.",
+    "price": 82.0,
+    "portion": "650g",
+    "tags": [
+      "Brasa",
+      "Aves"
+    ],
+    "sauces": [
+      "Chimichurri",
+      "Cogumelos",
+      "Pimenta Verde",
+      "Maionese Trufada"
+    ],
+    "pairings": [
+      "P40",
+      "P41",
+      "P45"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 82,00"
+  },
+  {
+    "code": "P37",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Gratinado de Batata Doce com Gorgonzola",
+    "description": "Camadas macias de batata-doce gratinadas ao forno com creme rico de queijo gorgonzola.",
+    "price": 44.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P24",
+      "P27"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 44,00"
+  },
+  {
+    "code": "P38",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Batata Roquefort",
+    "description": "Batatas douradas servidas com molho cremoso de queijo Roquefort.",
+    "price": 42.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P24",
+      "P33"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 42,00"
+  },
+  {
+    "code": "P39",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Purê de Batata Trufado",
+    "description": "Purê de batatas extremamente cremoso finalizado com azeite de trufas brancas.",
+    "price": 38.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Assinatura do Chef",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P23",
+      "P32",
+      "P33"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 38,00"
+  },
+  {
+    "code": "P40",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Fritas Tradicionais",
+    "description": "Porção de batatas fritas sequinhas e crocantes.",
+    "price": 36.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P24",
+      "P25"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 36,00"
+  },
+  {
+    "code": "P41",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Creme de Espinafre",
+    "description": "Clássico acompanhamento das steakhouses: espinafre fresco em molho aveludado e gratinado.",
+    "price": 42.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Clássico Parrillero",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P24",
+      "P33"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 42,00"
+  },
+  {
+    "code": "P42",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Legumes na Brasa",
+    "description": "Seleção de legumes frescos da estação tostados na grelha da parrilla com azeite extravirgem e flor de sal.",
+    "price": 40.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Brasa",
+      "Leve",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P23",
+      "P35",
+      "P36"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 40,00"
+  },
+  {
+    "code": "P43",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Pimentão Vermelho Confitado",
+    "description": "Pimentões vermelhos assados lentamente na brasa e confitados no azeite com alho e ervas.",
+    "price": 38.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Brasa",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P26",
+      "P29"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 38,00"
+  },
+  {
+    "code": "P44",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Arroz Branco",
+    "description": "Arroz branco soltinho preparado na hora.",
+    "price": 30.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P25",
+      "P48"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 30,00"
+  },
+  {
+    "code": "P45",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Arroz Caldoso de Cogumelos",
+    "description": "Arroz cremoso e caldoso preparado com mix de cogumelos frescos e finalizado com Parmesão.",
+    "price": 38.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Assinatura do Chef",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P27",
+      "P33",
+      "P35"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 38,00"
+  },
+  {
+    "code": "P46",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Arroz de Brócolis com Alho",
+    "description": "Arroz soltinho salteado com brócolis frescos no vapor e lâminas de alho dourado.",
+    "price": 36.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Clássico",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P25",
+      "P36"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 36,00"
+  },
+  {
+    "code": "P47",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Arroz Biro-Biro",
+    "description": "Arroz envolvido com ovos mexidos, bacon crocante, cebola e batata palha artesanal.",
+    "price": 42.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Clássico",
+      "Compartilhar",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P23",
+      "P29"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 42,00"
+  },
+  {
+    "code": "P48",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Farofa de Ovos",
+    "description": "Farofa artesanal amanteigada e crocante com ovos caipiras puxados na manteiga.",
+    "price": 42.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Clássico",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P25",
+      "P29"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 42,00"
+  },
+  {
+    "code": "P49",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Farofa do Pastus",
+    "description": "Receita especial da casa com farinha crocante na manteiga, ovos, linguiça artesanal, cebola caramelizada e azeitonas.",
+    "price": 44.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Assinatura do Chef",
+      "Compartilhar",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P29",
+      "P32",
+      "P33"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 44,00"
+  },
+  {
+    "code": "P50",
+    "category": "ACOMPANHAMENTOS",
+    "categoryLabel": "Acompanhamentos",
+    "title": "Talharim com Fonduta de Parmesão",
+    "description": "Massa artesanal ao molho aveludado de fonduta de queijo Parmesão.",
+    "price": 48.0,
+    "portion": "Guarnição",
+    "tags": [
+      "Vegetariano",
+      "Massa",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P24",
+      "P32"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 48,00"
+  },
+  {
+    "code": "P51",
+    "category": "PRINCIPAIS",
+    "categoryLabel": "Pratos Principais",
+    "title": "Milanesa Napolitana com Purê e Pesto",
+    "description": "Corte bovino empanado crocante, gratinado à napolitana com molho de tomate rústico e queijo, servido com purê de batata e pesto.",
+    "price": 88.0,
+    "portion": "Individual",
+    "tags": [
+      "Clássico Portenho"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P05",
+      "P18",
+      "P54"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 88,00"
+  },
+  {
+    "code": "P52",
+    "category": "PRINCIPAIS",
+    "categoryLabel": "Pratos Principais",
+    "title": "Milanesa com Talharim e Fonduta de Parmesão",
+    "description": "Milanesa bovina dourada e crocante acompanhada de talharim artesanal envolvido em fonduta cremosa de Parmesão.",
+    "price": 88.0,
+    "portion": "Individual",
+    "tags": [
+      "Clássico Portenho",
+      "Massa"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P07",
+      "P18",
+      "P54"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 88,00"
+  },
+  {
+    "code": "P53",
+    "category": "PRINCIPAIS",
+    "categoryLabel": "Pratos Principais",
+    "title": "Milanesa Fugazzeta com Fritas Trufadas",
+    "description": "Milanesa coberta com queijo derretido e cebolas douradas estilo Fugazzeta portenha, acompanhada de fritas da casa trufadas.",
+    "price": 98.0,
+    "portion": "Individual",
+    "tags": [
+      "Assinatura do Chef",
+      "Clássico Portenho"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P05",
+      "P21",
+      "P54"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 98,00"
+  },
+  {
+    "code": "P54",
+    "category": "PRINCIPAIS",
+    "categoryLabel": "Pratos Principais",
+    "title": "Bacalhau na Brasa do Chef Cristóvão Laruça",
+    "description": "Lombo de bacalhau grelhado, servido com mousseline cremosa de grão-de-bico, tomatinhos confitados e cebola grelhada na brasa.",
+    "price": 162.0,
+    "portion": "Individual",
+    "tags": [
+      "Assinatura do Chef",
+      "Brasa",
+      "Peixes & Mar"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P08",
+      "P21",
+      "P56"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 162,00"
+  },
+  {
+    "code": "P55",
+    "category": "PRINCIPAIS",
+    "categoryLabel": "Pratos Principais",
+    "title": "Talharim de Legumes na Brasa com Ricota de Búfala",
+    "description": "Massa talharim salteada com legumes grelhados na parrilla, finalizada com ricota cremosa de búfala e molho pesto artesanal.",
+    "price": 88.0,
+    "portion": "Individual",
+    "tags": [
+      "Vegetariano",
+      "Brasa",
+      "Massa"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P08",
+      "P09",
+      "P57"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 88,00"
+  },
+  {
+    "code": "P56",
+    "category": "PRINCIPAIS",
+    "categoryLabel": "Pratos Principais",
+    "title": "Prato Kids (Até 12 anos)",
+    "description": "Escolha 1 proteína (150g: Iscas de Carne, Filezinho de Frango ou Peixe do dia) e 3 acompanhamentos (Arroz, Feijão, Fritas, Macarrão na manteiga ou Saladinha).",
+    "price": 54.0,
+    "portion": "Infantil (150g + 3 guarnições)",
+    "tags": [
+      "Kids",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P40",
+      "P55"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 54,00"
+  },
+  {
+    "code": "P57",
+    "category": "SOBREMESAS",
+    "categoryLabel": "Sobremesas",
+    "title": "Panqueca com Doce de Leite La Serenissima",
+    "description": "Panqueca fina recheada com autêntico doce de leite argentino La Serenissima, caramelizada no ferro e servida com sorvete artesanal.",
+    "price": 42.0,
+    "portion": "Individual / Compartilhar",
+    "tags": [
+      "Assinatura do Chef",
+      "Vegetariano",
+      "Clássico Portenho",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P23",
+      "P33"
+    ],
+    "featured": true,
+    "priceFormatted": "R$ 42,00"
+  },
+  {
+    "code": "P58",
+    "category": "SOBREMESAS",
+    "categoryLabel": "Sobremesas",
+    "title": "Pudim Flan com Chantilly",
+    "description": "Clássico flan portenho de textura lisa com calda de caramelo âmbar e chantilly fresco batido na casa.",
+    "price": 28.0,
+    "portion": "Individual",
+    "tags": [
+      "Vegetariano",
+      "Clássico",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P51",
+      "P52"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 28,00"
+  },
+  {
+    "code": "P59",
+    "category": "SOBREMESAS",
+    "categoryLabel": "Sobremesas",
+    "title": "Torta de Chocolate com Nozes",
+    "description": "Torta intensa de chocolate meio amargo com nozes tostadas, servida morna sobre creme inglês artesanal de baunilha.",
+    "price": 36.0,
+    "portion": "Individual",
+    "tags": [
+      "Vegetariano",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P32"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 36,00"
+  },
+  {
+    "code": "P60",
+    "category": "SOBREMESAS",
+    "categoryLabel": "Sobremesas",
+    "title": "Abacaxi na Brasa com Creme Diplomata",
+    "description": "Fatias de abacaxi grelhadas lentamente na brasa com especiarias, servidas com creme diplomata aveludado de coco.",
+    "price": 34.0,
+    "portion": "Individual",
+    "tags": [
+      "Vegetariano",
+      "Brasa",
+      "Leve",
+      "Até R$ 60"
+    ],
+    "sauces": [],
+    "pairings": [
+      "P22",
+      "P34",
+      "P36"
+    ],
+    "featured": false,
+    "priceFormatted": "R$ 34,00"
+  }
+]

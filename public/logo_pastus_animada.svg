@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <style>
+    .flame-main { transform-box: view-box; transform-origin: 300px 340px; animation: flamePulse 3.6s ease-in-out infinite; }
+    .horns-glow { transform-box: view-box; transform-origin: 300px 220px; animation: hornsFloat 3.6s ease-in-out infinite; }
+    .ring-spin { transform-box: view-box; transform-origin: 300px 300px; animation: slowSpin 28s linear infinite; }
+    @keyframes flamePulse { 0%, 100% { transform: scale(1) translateY(0); } 50% { transform: scale(1.04, 1.07) translateY(-4px); } }
+    @keyframes hornsFloat { 0%, 100% { transform: translateY(0); opacity: 0.92; } 50% { transform: translateY(-3px); opacity: 1; } }
+    @keyframes slowSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .flame-main, .horns-glow, .ring-spin { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="emberGradAnim" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c85a32" />
+      <stop offset="55%" stop-color="#d4a853" />
+      <stop offset="100%" stop-color="#f2d28b" />
+    </linearGradient>
+    <linearGradient id="ringGradAnim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a853" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#c85a32" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#d4a853" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+  <circle cx="300" cy="300" r="270" fill="#161311" stroke="url(#ringGradAnim)" stroke-width="8" />
+  <circle class="ring-spin" cx="300" cy="300" r="246" fill="none" stroke="#d4a853" stroke-opacity="0.32" stroke-width="2.5" stroke-dasharray="10 8" />
+  <g stroke="#d4a853" stroke-width="7" stroke-linecap="round" opacity="0.88">
+    <line x1="165" y1="365" x2="435" y2="365" />
+    <line x1="185" y1="392" x2="415" y2="392" />
+    <line x1="205" y1="365" x2="190" y2="392" />
+    <line x1="252" y1="365" x2="242" y2="392" />
+    <line x1="300" y1="365" x2="300" y2="392" />
+    <line x1="348" y1="365" x2="358" y2="392" />
+    <line x1="395" y1="365" x2="410" y2="392" />
+  </g>
+  <g class="horns-glow">
+    <path d="M 218 195 C 178 182, 148 148, 156 112 C 172 142, 208 158, 245 170 C 226 196, 218 232, 226 268 C 202 248, 198 218, 218 195 Z" fill="#d4a853" />
+    <path d="M 382 195 C 422 182, 452 148, 444 112 C 428 142, 392 158, 355 170 C 374 196, 382 232, 374 268 C 398 248, 402 218, 382 195 Z" fill="#d4a853" />
+  </g>
+  <g class="flame-main">
+    <path d="M 300 114 C 332 168, 378 205, 368 268 C 362 308, 334 338, 300 344 C 266 338, 238 308, 232 268 C 222 205, 268 168, 300 114 Z" fill="url(#emberGradAnim)" />
+    <path d="M 300 185 C 318 218, 336 242, 328 282 C 322 306, 312 322, 300 326 C 288 322, 278 306, 272 282 C 264 242, 282 218, 300 185 Z" fill="#161311" opacity="0.65" />
+  </g>
+  <rect x="130" y="422" width="340" height="66" rx="12" fill="#211c18" stroke="#d4a853" stroke-width="3.5" />
+  <text x="300" y="464" text-anchor="middle" fill="#f7f3eb" font-family="Georgia, serif" font-size="34" font-weight="700" letter-spacing="8">PASTUS</text>
+  <text x="300" y="518" text-anchor="middle" fill="#d4a853" font-family="system-ui, sans-serif" font-size="15" font-weight="600" letter-spacing="5">FOGO &amp; PARRILLA</text>
+</svg>

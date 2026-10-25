@@ -1,0 +1,16 @@
+{
+  "name": "pastus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test tests/*.test.js",
+    "preview": "vite preview",
+    "import-menu": "node scripts/import-menu.js"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}

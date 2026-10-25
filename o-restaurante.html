@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#141210" />
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem("pastus-theme-v1");
+          const theme = saved === "light" || saved === "dark"
+            ? saved
+            : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+          document.documentElement.dataset.theme = theme;
+          document.querySelector('meta[name="theme-color"]').content = theme === "dark" ? "#141210" : "#faf6ee";
+        } catch {
+          document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+      })();
+    </script>
+    <meta
+      name="description"
+      content="Conheça o Pastus Fogo & Parrilla no BH Outlet (Belvedere): horários de funcionamento, endereço, reservas e a cozinha de fogo do chef Cristóvão Laruça."
+    />
+    <title>O Restaurante — Pastus Fogo &amp; Parrilla</title>
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="event-page">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Pastus Fogo & Parrilla — início">
+        <img src="%BASE_URL%logo_pastus.svg" alt="" width="48" height="48" />
+        <span class="brand-text">PASTUS <strong>PARRILLA</strong></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a class="nav-home" href="index.html">Início</a>
+        <a href="eventos.html">Eventos &amp; Sunset</a>
+        <a href="o-restaurante.html" class="nav-active" aria-current="page">O restaurante</a>
+        <a href="index.html#cardapio">Cardápio</a>
+      </nav>
+      <div class="header-actions">
+        <a
+          class="header-instagram theme-toggle"
+          href="https://www.instagram.com/pastus.bh/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visitar o Instagram oficial do Pastus"
+        >
+          <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="instagram-dot" cx="17.6" cy="6.5" r=".8"/></svg>
+          <span>Instagram</span>
+        </a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Ativar tema claro">
+          <svg class="theme-icon-sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="theme-icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.2 15.1A8.4 8.4 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"/></svg>
+          <span class="theme-toggle-label">Modo claro</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="bar-info event-page-main" id="o-restaurante" aria-labelledby="restaurante-title">
+        <div class="bar-section-inner">
+          <header class="bar-info-header">
+            <p class="brand-hero event-page-brand">PASTUS FOGO &amp; PARRILLA</p>
+            <p class="eyebrow">Tradição portenha e uruguaia no Belvedere</p>
+            <h1 id="restaurante-title">Do fogo à mesa, nos mínimos detalhes</h1>
+            <p class="bar-lead">
+              Comandado pelo chef português Cristóvão Laruça no BH Outlet, o Pastus une a técnica ancestral da parrilla argentina e uruguaia a cortes Dry Aged, ingredientes selecionados e hospitalidade acolhedora.
+            </p>
+          </header>
+
+          <div class="bar-info-grid">
+            <article class="bar-block bar-block-text" aria-labelledby="horarios-title">
+              <div class="bar-block-copy">
+                <h2 id="horarios-title">Horários de funcionamento</h2>
+                <p class="bar-lead">Almoços executivos, encontros em família, happy hour e jantares especiais.</p>
+                <ul class="price-list">
+                  <li><span>Segunda-feira</span><strong>Fechado</strong></li>
+                  <li><span>Terça-feira</span><strong>12h às 22h</strong></li>
+                  <li><span>Quarta-feira</span><strong>12h às 22h</strong></li>
+                  <li><span>Quinta-feira</span><strong>12h às 22h</strong></li>
+                  <li><span>Sexta-feira</span><strong>12h às 00h</strong></li>
+                  <li><span>Sábado</span><strong>12h às 23h</strong></li>
+                  <li><span>Domingo</span><strong>12h às 20h</strong></li>
+                </ul>
+                <p class="bar-note">
+                  Estrutura completa no BH Outlet com estacionamento amplo, ambiente climatizado, varanda aberta e espaço Pet Friendly.
+                </p>
+                <div class="event-page-cta">
+                  <a
+                    class="button button-light"
+                    href="https://wa.me/5531996280166?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20uma%20mesa%20no%20Pastus."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Reservar pelo WhatsApp
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="bar-block" aria-labelledby="local-title">
+              <div class="bar-block-copy">
+                <h2 id="local-title">Localização &amp; Experiência</h2>
+                <p class="bar-lead">
+                  Carnes nobres e legumes assados exclusivamente com o calor das brasas, preservando suculência e aroma autênticos.
+                </p>
+                <dl class="bar-meta">
+                  <div>
+                    <dt>Endereço</dt>
+                    <dd>Rodovia BR-356, nº 7515 — Lojas 104 / 105 / 106 (BH Outlet Plus Shopping, Belvedere — Belo Horizonte/MG, CEP 30320-765)</dd>
+                  </div>
+                  <div>
+                    <dt>Reservas de Mesas</dt>
+                    <dd><a class="text-link" href="https://wa.me/5531996280166" target="_blank" rel="noopener noreferrer">+55 (31) 99628-0166 (WhatsApp)</a></dd>
+                  </div>
+                  <div>
+                    <dt>Diferenciais</dt>
+                    <dd>Alta gastronomia na brasa · Cortes Dry Aged · Reserva on-line · Pet Friendly · Estacionamento no local</dd>
+                  </div>
+                </dl>
+                <a
+                  class="text-link"
+                  href="https://www.google.com/maps/search/?api=1&query=Pastus+Fogo+Parrilla+BH+Outlet+Belvedere+Belo+Horizonte"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Abrir rota no Google Maps
+                </a>
+              </div>
+              <figure class="bar-flyer bar-flyer-side">
+                <img
+                  src="%BASE_URL%restaurante-ambiente.svg"
+                  alt="Arte do Pastus Fogo & Parrilla: Alta gastronomia na brasa e cortes Dry Aged no BH Outlet"
+                  width="900"
+                  height="1100"
+                  loading="lazy"
+                />
+              </figure>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <a class="footer-brand" href="index.html">PASTUS FOGO &amp; PARRILLA</a>
+        <p>Uma experiência além do sabor sob o comando do chef Cristóvão Laruça.</p>
+        <p class="footer-place">Rod. BR-356, 7515 (Lojas 104 a 106) — BH Outlet, Belvedere, BH · Ter a Dom</p>
+        <nav class="footer-nav" aria-label="Links do site">
+          <a href="eventos.html">Eventos &amp; Sunset</a>
+          <a href="o-restaurante.html">O restaurante</a>
+          <a href="index.html#cardapio">Cardápio</a>
+        </nav>
+      </div>
+      <a class="instagram-footer" href="https://www.instagram.com/pastus.bh/" target="_blank" rel="noopener noreferrer" aria-label="Visitar o Instagram oficial do Pastus">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="instagram-dot" cx="17.6" cy="6.5" r=".8"/></svg>
+        Siga @pastus.bh
+      </a>
+    </footer>
+
+    <script type="module" src="/src/o-restaurante.js"></script>
+  </body>
+</html>
