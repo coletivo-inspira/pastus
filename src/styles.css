@@ -90,15 +90,25 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 .desktop-nav a:hover, .desktop-nav a.nav-active { color: var(--amber); }
 
-.header-actions { display: flex; align-items: center; gap: 0.6rem; }
+.header-actions {
+  display: flex; align-items: center; gap: 0.6rem; flex-shrink: 0;
+}
+.header-instagram,
 .theme-toggle {
   display: inline-flex; align-items: center; gap: 0.45rem;
+  max-width: 100%;
   padding: 0.45rem 0.8rem; border-radius: 999px;
   border: 1px solid var(--line); background: var(--bg-soft);
   color: var(--text); font-size: 0.85rem; font-weight: 600;
-  cursor: pointer; text-decoration: none;
+  cursor: pointer; text-decoration: none; line-height: 1;
+  flex-shrink: 0;
 }
-.theme-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; }
+.header-instagram svg,
+.theme-toggle svg {
+  width: 18px; height: 18px; flex: 0 0 18px;
+  fill: none; stroke: currentColor; stroke-width: 2;
+}
+.header-instagram .instagram-dot { fill: currentColor; stroke: none; }
 :root[data-theme="dark"] .theme-icon-moon { display: none; }
 :root[data-theme="light"] .theme-icon-sun { display: none; }
 
@@ -401,4 +411,8 @@ dialog::backdrop { background: rgba(0, 0, 0, 0.72); backdrop-filter: blur(4px); 
   .hero-inner { grid-template-columns: 1fr; text-align: center; }
   .hero-cta { justify-content: center; }
   .mobile-tabbar { display: grid; }
+  .header-instagram span,
+  .theme-toggle-label { display: none; }
+  .header-instagram,
+  .theme-toggle { padding: 0.5rem; }
 }

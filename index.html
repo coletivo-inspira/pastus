@@ -23,20 +23,21 @@
       content="Pastus Fogo & Parrilla no BH Outlet (Belvedere): cardápio interativo de cortes nobres na brasa, entradas, pratos principais, harmonizações e reservas."
     />
     <title>Pastus Fogo &amp; Parrilla — Uma experiência além do sabor</title>
-    <link rel="icon" type="image/svg+xml" href="%BASE_URL%logo.svg" />
+    <link rel="icon" type="image/svg+xml" href="public/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Outfit:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./src/styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
     <header class="site-header">
       <a class="brand" href="#inicio" aria-label="Pastus Fogo & Parrilla — início">
-        <img src="%BASE_URL%logo_pastus.svg" alt="" width="48" height="48" />
+        <img src="public/logo_pastus.svg" alt="" width="48" height="48" />
         <span class="brand-text">PASTUS <strong>PARRILLA</strong></span>
       </a>
       <nav class="desktop-nav" aria-label="Navegação principal">
@@ -47,18 +48,18 @@
       </nav>
       <div class="header-actions">
         <a
-          class="header-instagram theme-toggle"
+          class="header-instagram"
           href="https://www.instagram.com/pastus.bh/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visitar o Instagram oficial do Pastus (@pastus.bh)"
         >
-          <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="instagram-dot" cx="17.6" cy="6.5" r=".8"/></svg>
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="instagram-dot" cx="17.6" cy="6.5" r=".8"/></svg>
           <span>Instagram</span>
         </a>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Ativar tema claro">
-          <svg class="theme-icon-sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
-          <svg class="theme-icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.2 15.1A8.4 8.4 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"/></svg>
+          <svg class="theme-icon-sun" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="theme-icon-moon" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24"><path d="M20.2 15.1A8.4 8.4 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"/></svg>
           <span class="theme-toggle-label">Modo claro</span>
         </button>
       </div>
@@ -91,7 +92,7 @@
           </div>
           <div class="hero-artwork" aria-hidden="true">
             <span class="hero-light-ring"></span>
-            <img src="%BASE_URL%logo_pastus_animada.svg" alt="" />
+            <img src="public/logo_pastus_animada.svg" alt="" />
             <span class="hero-artwork-caption">FOGO, BRASA &amp; ALTA GASTRONOMIA</span>
           </div>
         </div>
